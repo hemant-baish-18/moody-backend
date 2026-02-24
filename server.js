@@ -8,17 +8,21 @@ app.use(cors({
 
 const songs = {
   happy: [
-    { title: "Happy Mood", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" },
-    { title: "Positive Energy", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3" }
+    { title: "Upbeat Morning (English vibe)", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" },
+    { title: "Feel Good Pop (English)", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-8.mp3" },
+    { title: "Bollywood Dance Style Instrumental", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-10.mp3" }
   ],
   sad: [
-    { title: "Sad Piano", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3" }
+    { title: "Sad Piano (Hindi emotional vibe)", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3" },
+    { title: "Lonely Night", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-14.mp3" }
   ],
   neutral: [
-    { title: "Chill Beat", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3" }
+    { title: "Chill Lofi Beat", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3" },
+    { title: "Background Study Music", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3" }
   ],
   surprised: [
-    { title: "Excited", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-7.mp3" }
+    { title: "Excited Electronic", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-7.mp3" },
+    { title: "Adventure Theme", url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-9.mp3" }
   ]
 };
 

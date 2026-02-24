@@ -22,6 +22,10 @@ const songs = {
   ]
 };
 
+app.get("/", (req, res) => {
+  res.send("Moody Backend API is running 🚀");
+});
+
 app.get("/songs", (req, res) => {
   const mood = req.query.mood || "neutral";
   res.json(songs[mood]);
